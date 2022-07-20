@@ -1,0 +1,11 @@
+{
+    "name": "@nuess/core",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test:unit": "vitest --run",
+        "lint:check": "eslint --ext .ts src/**"
+    }
+}
