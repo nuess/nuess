@@ -1,0 +1,13 @@
+{
+    "name": "@nuess/templating",
+    "version": "0.1.0",
+    "scripts": {
+        "test:unit": "vitest run",
+        "test:lint": "eslint --ext .ts index.ts src/**"
+    },
+    "devDependencies": {
+        "vitest": "^0.18.1",
+        "tsno": "^2.0.0",
+        "tsup": "^6.1.3"
+    }
+}
