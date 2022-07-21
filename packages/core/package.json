@@ -5,7 +5,15 @@
     "scripts": {
         "build": "tsup",
         "dev": "tsup --watch",
-        "test:unit": "vitest --run",
-        "lint:check": "eslint --ext .ts src/**"
+        "test:unit": "vitest run",
+        "test:lint": "eslint --ext .ts index.ts src/**"
+    },
+    "dependencies": {
+        "@nuess/templating": "workspace:*"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.6",
+        "vitest": "^0.18.1",
+        "tsup": "^6.1.3"
     }
 }

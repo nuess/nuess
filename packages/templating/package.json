@@ -6,8 +6,8 @@
         "test:lint": "eslint --ext .ts index.ts src/**"
     },
     "devDependencies": {
+        "@types/node": "^18.0.6",
         "vitest": "^0.18.1",
-        "tsno": "^2.0.0",
         "tsup": "^6.1.3"
     }
 }

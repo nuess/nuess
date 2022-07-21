@@ -17,8 +17,8 @@
             "outputs": []
         },
 
-        "lint:check": {
-            "dependsOn": ["^lint:check"],
+        "test:lint": {
+            "dependsOn": ["^test:lint"],
             "outputs": []
         }
     }
