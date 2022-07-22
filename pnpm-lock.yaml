@@ -26,12 +26,12 @@ importers:
 
   packages/core:
     specifiers:
-      '@nuess/templating': workspace:*
       '@types/node': ^18.0.6
+      colorette: ^2.0.19
       tsup: ^6.1.3
       vitest: ^0.18.1
     dependencies:
-      '@nuess/templating': link:../templating
+      colorette: 2.0.19
     devDependencies:
       '@types/node': 18.0.6
       tsup: 6.1.3
@@ -39,16 +39,6 @@ importers:
 
   packages/studio:
     specifiers: {}
-
-  packages/templating:
-    specifiers:
-      '@types/node': ^18.0.6
-      tsup: ^6.1.3
-      vitest: ^0.18.1
-    devDependencies:
-      '@types/node': 18.0.6
-      tsup: 6.1.3
-      vitest: 0.18.1
 
 packages:
 
@@ -434,6 +424,10 @@ packages:
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
     dev: true
+
+  /colorette/2.0.19:
+    resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}
+    dev: false
 
   /commander/4.1.1:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
