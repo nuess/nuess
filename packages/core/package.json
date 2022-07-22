@@ -5,15 +5,20 @@
     "scripts": {
         "build": "tsup",
         "dev": "tsup --watch",
-        "test:unit": "vitest run",
+        "test:unit": "vitest run --silent",
+        "test:watch": "vitest dev",
         "test:lint": "eslint --ext .ts index.ts src/**"
     },
     "dependencies": {
-        "@nuess/templating": "workspace:*"
+        "body-parser": "^1.20.0",
+        "colorette": "^2.0.19",
+        "polka": "^0.5.2"
     },
     "devDependencies": {
+        "@types/body-parser": "^1.19.2",
         "@types/node": "^18.0.6",
-        "vitest": "^0.18.1",
-        "tsup": "^6.1.3"
+        "@types/polka": "^0.5.4",
+        "tsup": "^6.1.3",
+        "vitest": "^0.18.1"
     }
 }

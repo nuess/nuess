@@ -6,4 +6,4 @@
  * const text1: Option<string> = undefined // also, is valid
  * ```
  */
-declare type Option<T> = T | undefined
+declare type Maybe<T> = T | undefined
